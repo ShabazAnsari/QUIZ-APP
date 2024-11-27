@@ -1,0 +1,75 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+}
+
+/* Heading Styling */
+.heading {
+    color: #ce0c0c;
+    font-size: 70px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Question Container Styling */
+.question-container {
+    width: 60%;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    text-align: center;
+}
+
+.question {
+    font-size: 30px;
+    color: #ffff4d;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 20px;
+}
+
+.answer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.answer-btn,
+.next-btn {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 4px 4px 7px black;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.answer-btn:hover,
+.next-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.score {
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
