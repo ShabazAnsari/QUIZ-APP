@@ -73,3 +73,34 @@ body {
     font-size: 40px;
     margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+        background-size: cover;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .question-container {
+        width: 90%; 
+        padding: 10px;
+    }
+
+    .question {
+        font-size: 25px;
+    }
+
+    .answer-btn,
+    .next-btn {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .score {
+        font-size: 25px;
+    }
+}
